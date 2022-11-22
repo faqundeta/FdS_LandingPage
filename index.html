@@ -1,1 +1,177 @@
-'hola mundo'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuera del Sistema</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="https://kit.fontawesome.com/d88d1def0c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="/assets/fds.png" alt="logo" class="header__logo">
+        <nav navbar>
+            <ul class="navbar__list">
+                <li><a href="#hero">Nosotros</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#sumate">Sumate</a></li>
+                <li><a href="#historias">Historias</a></li>
+                <li><a href="#donar">Donar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="fondo">
+            <div class="fondo__img"></div>
+        </section>
+        
+        <section id="hero">
+             <div class="hero__info">
+                <h1>Quienes somos</h1>
+                <p>Somos una asociación despolitizada y sin fines de lucro, dedicada a
+                    proporcionar comida, ropa, trabajo y otros elementos esenciales a niños,
+                    niñas, jóvenes y adultos que se encuentran en situación de calle o
+                    vulnerabilidad, con la finalidad de mejorar su calidad de vida.</p>
+            </div>
+
+
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+           <div class="proyectos__caja"> 
+            <div class="slide">
+                <div class="slide-inner">
+                    <input class="slide-open" type="radio" id="slide-1" 
+                          name="slide" aria-hidden="true" hidden="" checked="checked">
+                    <div class="slide-item">
+                        <img src="/assets/projecto_11.jpg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-2" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="/assets/projecto_21.jpg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-3" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="/assets/projecto_31.jpg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-4" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="/assets/projecto_41.jpg">
+                    </div>
+                    <label for="slide-4" class="slide-control prev control-1"></label>
+                    <label for="slide-2" class="slide-control next control-1"></label>
+                    <label for="slide-1" class="slide-control prev control-2"></label>
+                    <label for="slide-3" class="slide-control next control-2"></label>
+                    <label for="slide-2" class="slide-control prev control-3"></label>
+                    <label for="slide-4" class="slide-control next control-3"></label>
+                    <label for="slide-3" class="slide-control prev control-4"></label>
+                    <label for="slide-1" class="slide-control next control-4"></label>
+                    <ol class="slide-indicador">
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-4" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="sumate">
+            <div class="sumate__info">
+                <h2> Sé el cambio que quieras ver en el Mundo</h2>
+                <p> Somos gente común que intenta aportar un granito de arena para construir un lugar mejor para todos y todas.
+                </p>
+                <a href="#">¡Sumate!</a>
+            </div>
+            <div class="sumate__img">
+                <img src="/assets/sumate-img.jpg" alt="recorrido barrial">
+            </div>
+        </section>
+
+        <section id="historias">
+
+            <h2>Historias que merecen ser contadas</h2>
+
+          <div class="historias__container">
+            <div class="historias__container__card"> 
+                <img src="/assets/historias (1).jpg" alt="eduardo">
+                <h3>Eduardo</h3>
+                <p>Lo encontramos en la puerta de nuestra sede, pidiéndonos algo de ropa y comida uno de los miércoles de olla y nos contó que paraba en la plaza Casares. Con el tiempo, nos fue demostrando que realmente quería darle un giro a su vida y salir adelante y nosotros, le demostramos que estábamos comprometidos para darle una mano.
+                Edu ahora cuenta con un puesto de libros 📚 en Cabello y Ugarteche 📍
+                </p>
+            </div>
+            <div class="historias__container__card">
+                <img src="/assets/historias (3).jpg" alt="antonio">
+                <h3>Antonio</h3>
+                <p>Lo encontramos en la puerta de nuestra sede, pidiéndonos algo de ropa y comida uno de los miércoles de olla y nos contó que paraba en la plaza Casares. Con el tiempo, nos fue demostrando que realmente quería darle un giro a su vida y salir adelante y nosotros, le demostramos que estábamos comprometidos para darle una mano.
+                Edu ahora cuenta con un puesto de libros 📚 en Cabello y Ugarteche 📍</p>
+            </div>
+            <div class="historias__container__card">
+                <img src="assets/historias (5nuevo).jpg" alt="enrique">
+                <h3>Enrique</h3>
+                <p>Desde aquel jueves por la noche en que lo conocimos, hace ya un tiempo que nuestro querido Quique tiene su puesto de libros (French y Azcuenaga, por si quieren pasar 😉).
+                Tanto creció *y sigue creciendo* el puesto, que hoy puede alquilar una pieza donde dormir, y así, superar cada vez más la situación de calle en la que estaba semanas atrás.</p>
+            </div>
+            <div class="historias__container__card">
+                <img src="assets/historias (2).jpg" alt="pablo">
+                <h3>Pablo</h3>
+                <p>Lo encontramos en la puerta de nuestra sede, pidiéndonos algo de ropa y comida uno de los miércoles de olla y nos contó que paraba en la plaza Casares. Con el tiempo, nos fue demostrando que realmente quería darle un giro a su vida y salir adelante y nosotros, le demostramos que estábamos comprometidos para darle una mano.
+                Edu ahora cuenta con un puesto de libros 📚 en Cabello y Ugarteche 📍</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="donar">
+            <div class="donar__info">
+                <h3>Ayudanos a ayudar</h3>
+                <p>Tu contribución es de gran aporte para que sigamos construyendo y concretrando nuestra misión.</p>
+                <button><a href="">Donar</a></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__info">
+            <div class="footer__info__descripcion">
+                <img src="assets/Mi proyecto.png" alt="logo">
+                <p>Fuera del Sistema es una Asociación Civil que brinda asistencia a personas en situación de calle y/o vulnerabilidad, valiéndonos de recursos propios y privados. Somos completamente independientes y no apoyamos ni recibimos apoyo de ningún partido político ni de ningún Gobierno.</p>
+            </div>
+            <div class="footer__info__redes">
+                <a href="https://www.instagram.com/fuera.delsistema/?hl=es" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="https://ar.linkedin.com/company/fuera-del-sistema" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a href="www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+            </div>
+        </div>
+        <span class="linea"></span>
+        <div>
+            <ul class="footer__contacto__ul">
+                <li>Av. Santa Fe 3535, local 60</li>
+                <li><span class="contacto">Contacto</span>
+                    <ul>
+                        <li>Catalina: +54 9 2333 435465</li>
+                        <li>Marcos: +54 9 3204 342354</li>
+                    </ul>
+                </li>
+                <li>fueradelsistema@gmail.com</li>
+            </ul>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7181450831063!2d-58.4142733!3d-34.5859977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57e337ac48f%3A0x805965ffbc747bc0!2sAv.%20Sta.%20Fe%203535%2C%20C1425%20CABA!5e0!3m2!1ses-419!2sar!4v1669053897713!5m2!1ses-419!2sar" class="footer__map"></iframe>
+    </footer>
+</body>
+</html>
