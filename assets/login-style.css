@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    /* bg color */
+    --background:#0A0908;
+    --first: #2A2A2A;
+    --primary: rgb(60, 60, 60);
+    --secondary:rgb(90, 90, 90);
+    --third: rgb(120, 120, 120);
+    --fourth: rgb(180, 180, 180);
+    --fifth: #F2F4F3;
+
+    /* text color */
+    --text-yellow: #ffff40;
+    --text-minus-yellow: #e5e619;
+    --text: #ccdad1;
+    
+    /* decoration */
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header > a > .header__logo{
+    width: 100px;
+}
+
+main {
+    height: 150vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+
+h1 {
+    background: linear-gradient(to top, #ffff8a, #6fff00);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+#cajas {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    background-color: #49111c;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.caja img {
+    width: 70px;
+    align-self: flex-end;
+}
+
+.login {
+    color: white;
+}
+
+.login h2 {
+    font-size: 35px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.registro {
+    background-color: var(--text-yellow);
+    box-shadow: 0px 0px 7px white;
+
+}
+
+.registro h2 {
+    font-size: 35px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.div__interno {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.btn {
+    height: 40px;
+    font-size: 17px;
+    align-self: center;
+    padding: 5px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+@media (max-width: 780px) {
+    main {
+            height: 200vh;
+            padding: 0px 20px;
+            justify-content: unset;
+        }
+    
+    #info {
+        margin-top: 130px;
+    }
+    #cajas {
+        justify-content: center;
+    }
+
+    .login h2 {
+        margin-top: unset;
+    }
+
+    }
