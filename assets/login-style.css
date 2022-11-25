@@ -40,7 +40,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
+    /* padding-bottom: 200px; */
 }
 
 #info {
@@ -118,19 +119,24 @@ p {
     margin-bottom: 15px;
 }
 
-.btn {
-    height: 40px;
-    font-size: 17px;
+.div__interno > input {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.div__interno > input:focus {
+    background-color: #e5e5e5;
+}
+
+.reg {
     align-self: center;
-    padding: 5px 20px;
-    margin-top: 30px;
     border-radius: 10px;
-    border-color: gray;
 }
 
 @media (max-width: 780px) {
     main {
-            height: 200vh;
+            height: 300vh;
             padding: 0px 20px;
             justify-content: unset;
         }
@@ -146,4 +152,4 @@ p {
         margin-top: unset;
     }
 
-    }
+}

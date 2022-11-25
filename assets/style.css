@@ -280,15 +280,48 @@ main {
     width: 80%;
 }
 
-.sumate__info a {
-    color: white;
+.btn {
+    height: 40px;
+    font-size: 17px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-color: gray;
+    transition-property: all;
+    transition-duration: 1s;
+
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #f79d00, #64f38c);
+    /* animation: scale 0.2s ease-out; */
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    } 
+    100% {
+        transform: scale(1.1);
+    }
+
+}
+
+.sumate {
     border: none;
     border-radius: 5px;
     background-color: var(--primary);
     width: 120px;
-    text-align: center;
+    align-self: flex-start;
     padding: 8px 0px;
 }
+
+.sumate a {
+    color: white;
+}
+
+
 
 
 .sumate__img {
@@ -403,16 +436,21 @@ main {
     padding: 0px 10px;
 }
 
-.donar__info button {
+.donar {
     width: 150px;
     height: 50px;
     text-decoration: none;
     border: white;
     border-radius: 40px;
+    align-self: center;
 }
 
-.donar__info button > a {
+.donar > a {
     color: black;
+}
+
+.btn:hover {
+
 }
 
 
