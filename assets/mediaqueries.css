@@ -142,6 +142,10 @@ footer {
 width: 100%;
 }
 
+.sumate { /* botón */
+    align-self: center; 
+}
+
 .sumate__img {
     height: 500px;
     width: 450px;
@@ -227,13 +231,28 @@ footer {
 }
 
 @media (max-width:415px) {
+
+.fondo__img{
+    width: 97vw;
+}
+
 .sumate__img {
     width: 90%;
     height: unset;
     padding: 5px 0px;
 }
 
+.donar__info h3 {
+    width: 90%;
+}
+
 .footer__contacto__map {
     width: 90%;
 }
+}
+
+@media (max-width:336px) {
+.donar__info h3 {
+    font-size: 40px;
+    }
 }
